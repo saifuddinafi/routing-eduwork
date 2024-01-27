@@ -1,0 +1,33 @@
+.category-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .category-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .category-nav li {
+    font-size: 18px;
+  }
+  
+  .category-nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #eee;
+    transition: background-color 0.3s ease;
+  }
+  
+  .category-nav a:hover {
+    background-color: #ddd;
+  }
+  
